@@ -1,0 +1,6 @@
+CS240,Data Structures,CS120
+CS120,Programming Foundations
+CS180,Discrete Structures
+CS350,Database Applications,CS240
+CS260,Computer Systems,CS120
+CS410,Software Project,CS350,CS260
