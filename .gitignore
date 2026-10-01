@@ -1,0 +1,11 @@
+# Local build outputs
+/catalog
+/catalog.exe
+/build/
+*.obj
+*.o
+*.pdb
+*.ilk
+# Editor and test caches
+/.vs/
+__pycache__/
