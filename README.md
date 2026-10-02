@@ -2,7 +2,7 @@
 
 A command-line course catalog that loads course records from a file, prints them in alphanumeric order, and searches by course number to display a course and its prerequisites. The central data structure is a binary search tree implemented directly in C++.
 
-**Available here:** runnable source, a small sample dataset, and regression tests. No course framework or third-party C++ libraries are required.
+**Available here:** runnable source, a small sample dataset, and regression tests. No third-party C++ libraries are required.
 
 ## What the project demonstrates
 
@@ -60,7 +60,7 @@ CS240,Data Structures,CS120
 - This is a simple comma-delimited format. Quoted fields and commas within titles are not supported.
 - If the supplied filename cannot be opened, the program also tries it with `.csv` appended.
 
-The six-course dataset in [data/courses.csv](data/courses.csv) was created for this portfolio edition.
+Try the six-course example in [data/courses.csv](data/courses.csv).
 
 ## Design and limits
 
@@ -88,10 +88,10 @@ python3 tests/test_catalog.py ./catalog
 
 On Windows, use `python tests/test_catalog.py .\catalog.exe`.
 
-The nine tests cover sorted output, prerequisite lookup, line endings and whitespace, invalid menu input, EOF at each prompt, rejected files, and successful and unsuccessful catalog replacement. The portfolio edition was compiled and tested on Linux with GCC; Windows and macOS commands have not been independently tested here.
+The nine tests cover sorted output, prerequisite lookup, line endings and whitespace, invalid menu input, EOF at each prompt, rejected files, and successful and unsuccessful catalog replacement. The program was compiled and tested on Linux with GCC; Windows and macOS commands have not been independently tested here.
 
-## Background and contribution
+## Background
 
-This project began as my SNHU CS-300 data-structures coursework. My work included the course-loading logic, BST implementation, traversal and search operations, and console interface. The original exercise compared vectors, hash tables and binary search trees before implementing one approach.
+My implementation covers file loading, the binary search tree, traversal, search, and the console interface. The design exercise compared vectors, hash tables, and binary search trees before selecting an approach.
 
-This portfolio edition keeps that structure and adds focused input-validation fixes, sample data and regression checks. AI assistance was used for the portfolio review, cleanup, documentation and test preparation. The original submission is retained separately; course instructions and supplied datasets are not included here.
+Developed as undergraduate coursework. See [credits and acknowledgments](CREDITS.md).
