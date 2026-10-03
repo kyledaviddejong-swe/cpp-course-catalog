@@ -1,7 +1,6 @@
 /*
 * Developer: Kyle DeJong
 * Date: 4/19/2026
-* Project: SNHU CS-300 Module 7 Project 2
 */
 
 #include <algorithm>
